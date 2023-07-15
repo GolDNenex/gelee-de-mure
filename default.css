@@ -2326,6 +2326,12 @@ div:not(.paperList) .listItem {
 }
 
 .raised {
-background: #4f0099 !important;
-border-radius: var(--rounding) !important;
+  background: #4f0099 !important;
+  border-radius: var(--rounding) !important;
+}
+
+.iconOsdProgressInner {
+  background: #6700ff;
+  border-radius: .25em;
+  height: 100%;
 }

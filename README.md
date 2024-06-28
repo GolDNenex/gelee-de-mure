@@ -74,16 +74,16 @@ You can modify multiple variable in the same `:root { ... }`
 
 ```
 :root {
-    --logo-img: url("https://your_domain_name.nice/logo-banner.png") !important;
+    --banner-img: url("https://your_domain_name.nice/logo-banner.png") !important;
 }
 ```
 
-### Logo banner:
+### Login background image:
 Jellyfin generate a `splashscreen.png` file in the `data` folder that can be use for this.
 
 ```
 :root {
-    --logo-img: url("https://your_domain_name.nice/splashscreen.png") !important;
+    --login-bg-img: url("https://your_domain_name.nice/splashscreen.png") !important;
 }
 ```
 
